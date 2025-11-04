@@ -72,4 +72,9 @@ class AdvancedOptions
      * @var string Country Code of billToParty.
      */
     public $billToCountryCode;
+
+    /**
+     * @var string When using my_other_account as the billToParty value, the shippingProviderId value that is associated with the desired account.
+     */
+    public $billToMyOtherAccount;
 }
